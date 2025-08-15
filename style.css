@@ -148,12 +148,16 @@ button {
 }
 
 .papel {
-	background-color: aqua;
-	background-image: url(/img/grunge-divider-3\\(2\).png);
+	flex-grow: 1;
+	width: 100px;
+	height: calc(100% + 26px);
+	background-image: url(img/papel.png);
+	z-index: 2;
+	position: absolute;
+	overflow: hidden;
+	margin-top: -26px;
 	right: 100%;
 }
 
 @media (max-width: 800px) {
-	.capa {
-	}
 }
